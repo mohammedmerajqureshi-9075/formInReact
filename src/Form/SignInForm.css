@@ -66,3 +66,21 @@ button:hover{
     background-color: black;
     color: #FFFFFF;
 }
+/* For screens between 601px and 1024px (tablet) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .main-form{
+        width: 70%;
+    }
+    .usename{
+        margin-top:3px ;
+    }
+  }
+@media (max-width: 600px) {
+    .main-form{
+        width: 70%;
+    }
+    .usename{
+        margin-left:3px ;
+    }
+    
+  }
