@@ -7,7 +7,6 @@
     background-color: #344A73;
 }
 .login-box{
-   border: 1px solid black;
    height: 60vh;
    width: 30%;
    display: flex;
@@ -15,6 +14,7 @@
    align-items: center;
    justify-content: center;
    background-color: white;
+   border-radius: 5px;
 }
 .email-box{
     display: flex;
@@ -38,4 +38,20 @@
     padding: 5px 65px;
     border-radius: 5px;
     border:  1px solid black;
+    margin-top: 10px;
 }
+/* For screens between 601px and 1024px (tablet) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .login-box{
+        width: 60%;
+        height: 56vh;
+    }
+  
+  
+  }
+@media (max-width: 600px) {
+    .login-box{
+        width: 70%;
+    }
+    
+  }
